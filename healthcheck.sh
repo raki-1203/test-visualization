@@ -3,7 +3,8 @@
 # Checks if backend is responding, restarts if not
 
 BACKEND_URL="http://127.0.0.1:18791/health"
-LOG_FILE="/root/.openclaw/workspace/star-office-ui/healthcheck.log"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+LOG_FILE="${SCRIPT_DIR}/healthcheck.log"
 
 # Log timestamp
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Health check starting..." >> "$LOG_FILE"

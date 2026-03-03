@@ -13,17 +13,32 @@
     {
       "key": "ocj_starteam02",
       "name": "团队成员 02",
-      "maxConcurrent": 3
+      "maxConcurrent": 3,
+      "used": false,
+      "usedBy": null,
+      "usedByAgentId": null,
+      "usedAt": null,
+      "reusable": true
     },
     {
       "key": "ocj_starteam03",
       "name": "团队成员 03",
-      "maxConcurrent": 3
+      "maxConcurrent": 3,
+      "used": false,
+      "usedBy": null,
+      "usedByAgentId": null,
+      "usedAt": null,
+      "reusable": true
     },
     {
       "key": "ocj_starteam04",
       "name": "团队成员 04",
-      "maxConcurrent": 3
+      "maxConcurrent": 3,
+      "used": false,
+      "usedBy": null,
+      "usedByAgentId": null,
+      "usedAt": null,
+      "reusable": true
     },
     {
       "key": "ocj_starteam05",
