@@ -11,6 +11,9 @@ venv/
 # OS
 .DS_Store
 
+# oh-my-claudecode
+.omc/
+
 # Runtime / local files
 state.json
 agents-state.json
